@@ -5,7 +5,7 @@
 array.length() {
   if [[ $# -gt 0 ]]; then
     local -n _arr="$1"
-    echo ${#_arr[@]:-0}
+    echo ${#_arr[@]}
   fi
 }
 
